@@ -2,8 +2,8 @@
 
 Code, analysis scripts and raw logs for the paper
 
-> Lin, D. S. *Release timing of two image detectors sharing a Raspberry Pi 5 on a crop-scouting unit:
-> effects on latency, temperature and power.* Submitted to *Biosystems Engineering* (2026).
+> Lin, D. S. *Release-timing rules for disease and pest detectors sharing one single-board computer
+> on a crop-scouting unit.* Manuscript under review (2026).
 > The citation will be added on acceptance.
 
 A leaf-disease detector (YOLO11s) and a pest detector (YOLO11n or YOLO11s), trained on durian images,
