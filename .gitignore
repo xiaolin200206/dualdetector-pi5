@@ -1,0 +1,10 @@
+data/campaign1/
+data/campaign2/
+data/campaign3/
+data/sweep1/
+data/sweep2/
+data/replay1/
+data/replay.log
+__pycache__/
+*.pyc
+.venv/

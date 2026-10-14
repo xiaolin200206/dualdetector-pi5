@@ -1,0 +1,11 @@
+{
+ "n_runs": 24,
+ "n_inferences": 76490,
+ "cutoffs": 0,
+ "throttled_now_max": 0.0,
+ "arm_below_max_max": 0.0,
+ "temp_max_c": 74.9,
+ "slots_skipped": 1,
+ "spearman_temp_vs_duty": 0.5313043478260869,
+ "power_valid_runs": 6
+}

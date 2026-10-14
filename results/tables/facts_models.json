@@ -1,0 +1,40 @@
+{
+ "L_leaf_median": 0.38797683333340655,
+ "L_pest_median": 0.15382416666663326,
+ "L_leaf_p99": 0.4104757233333187,
+ "L_pest_p99": 0.16585575333329566,
+ "n_leaf": 4800,
+ "leaf_overlap_predicted_main": [
+  0.37288699386883994,
+  0.3731691761684442
+ ],
+ "pest_overlap_predicted_main": [
+  0.4282760535425708,
+  0.42914617302858854
+ ],
+ "replay_leaf_overlap_predicted": [
+  0.35097510063207094,
+  0.3513262230697546
+ ],
+ "replay_leaf_overlap_observed": [
+  0.3416856492027335,
+  0.35193621867881547
+ ],
+ "replay_pest_overlap_predicted": [
+  0.40887320862074833,
+  0.40919664097209313
+ ],
+ "replay_pest_overlap_observed": [
+  0.398406374501992,
+  0.40981432360742703
+ ],
+ "predicted_at_period_10s": 0.054180100000003985,
+ "predicted_at_period_60s": 0.00903001666666733,
+ "wait_median_s": [
+  0.7193690000001425,
+  0.7605499999999665
+ ],
+ "onset_abs_error_same_run_max_s": 0.024110000833303724,
+ "onset_error_camera_min_s": 0.00482825083334304,
+ "onset_error_camera_max_s": 0.055835834166821696
+}

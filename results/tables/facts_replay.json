@@ -1,0 +1,24 @@
+{
+ "images": 281,
+ "boxes_total": 3400,
+ "images_leaf_target": 227,
+ "images_pest_target": 117,
+ "images_both": 63,
+ "images_neither": 0,
+ "runs": 10,
+ "warmup_min": 2.0,
+ "governor": {
+  "rp_indep_r1": "ondemand",
+  "rp_indep_r2": "ondemand",
+  "rp_phase42_r1": "performance",
+  "rp_phase42_r2": "ondemand",
+  "rp_phase75_r1": "ondemand",
+  "rp_phase75_r2": "ondemand",
+  "rp_serialp_r1": "ondemand",
+  "rp_serialp_r2": "ondemand",
+  "rp_sync_r1": "performance",
+  "rp_sync_r2": "ondemand"
+ },
+ "clock_below_2400_frac_max": 0.1667438628994905,
+ "throttled_any": false
+}

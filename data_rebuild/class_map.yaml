@@ -1,0 +1,14 @@
+# Class map for 02_build.py. Read inspect_out/report.md first, then fill in as needed.
+# Leaving it empty works, unless class names differ only in case; the build then stops
+# and asks for a decision here.
+#
+# NOTE: replace this template with the class_map.yaml that was actually used for the
+# paper before publishing, so the class names in the data match the paper.
+
+rename:            # old name: new name (applies to both datasets)
+  # Early_Blight: early_blight
+
+drop: []           # classes to remove entirely, e.g. [Anthracnose]
+
+domain:            # default: classes from the leaf folder go to leaf, from the pest folder to pest
+  # weevil_damage: pest

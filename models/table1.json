@@ -1,0 +1,5 @@
+{
+  "leaf_s": {"parameters_M": 9.43, "gflops": 21.6, "onnx_mb": 36.2, "map50": 0.479, "map50_95": 0.299, "onnx_md5": "e14d0fb711f0aa0c22d2df1451c7c257"},
+  "pest_n": {"parameters_M": 2.59, "gflops": 6.4, "onnx_mb": 10.1, "map50": 0.274, "map50_95": 0.117, "onnx_md5": "3eb685593dd36a41ef952792eb7e73c7"},
+  "pest_s": {"parameters_M": 9.43, "gflops": 21.6, "onnx_mb": 36.2, "map50": 0.278, "map50_95": 0.129, "onnx_md5": "825e5ca2b999f146adfa75f6c66bb086"}
+}

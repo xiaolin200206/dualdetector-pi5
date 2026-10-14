@@ -1,0 +1,18 @@
+{
+ "sweep_runs": 18,
+ "sweep_power_valid": 16,
+ "round2_runs": 6,
+ "round2_power_valid": 6,
+ "L_leaf_clean_s": 0.38797683333340655,
+ "L_pest_clean_s": 0.15382416666663326,
+ "prediction_matches": 9,
+ "prediction_total": 9,
+ "sweep_cutoffs": 0,
+ "round2_cutoffs": 0,
+ "sweep_temp_max_c": 74.35,
+ "round2_temp_max_c": 74.9,
+ "sweep_arm_below_max_max": 0.0,
+ "round2_arm_below_max_max": 0.0,
+ "sweep_throttled_now_max": 0.0,
+ "round2_throttled_now_max": 0.0
+}

@@ -1,0 +1,25 @@
+{
+ "campaign3_runs": 9,
+ "sweep2_runs": 10,
+ "serialp_both_ms": 544.002333333348,
+ "serialp_both_min": 541.1379999999326,
+ "serialp_both_max": 547.1850000000131,
+ "serialp_t2_both_ms": 697.6266666667167,
+ "serialp_ss_both_ms": 773.3126666666218,
+ "L_leaf_s": 0.38797683333340655,
+ "contact_stops_between_s": [
+  0.39,
+  0.42
+ ],
+ "touched_frac_at_390": 0.360625,
+ "share_at_390": 0.014514864146037781,
+ "touched_frac_at_420_max": 0.00125,
+ "both_at_420_ms": 579.5839999999828,
+ "leaf_p99_at_390_max": 470.545999999938,
+ "leaf_p99_at_420_max": 413.0525300001159,
+ "power_valid_campaign3": 3,
+ "power_valid_sweep2": 2,
+ "cutoffs": 0,
+ "slots_skipped": 0,
+ "temp_max_c": 68.85
+}

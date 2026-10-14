@@ -1,0 +1,11 @@
+path: .
+train: images
+val: images
+nc: 6
+names:
+- Algal
+- Leaf_rot
+- Phomopsis
+- Psyllid
+- Psyllid_damage
+- leaf_hopper_damage

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper (citation added on acceptance) and this repository."
+title: "Code and data for: Release timing of two image detectors sharing a Raspberry Pi 5 on a crop-scouting unit: effects on latency, temperature and power"
+authors:
+  - family-names: "Lin"
+    given-names: "Ding Shan"
+    orcid: "https://orcid.org/0009-0009-6031-8479"
+license: MIT
+version: 1.1.0
+date-released: 2026-10-14
+repository-code: "https://github.com/xiaolin200206/dualdetector-pi5"
+keywords:
+  - crop scouting
+  - edge computing
+  - Raspberry Pi 5
+  - real-time scheduling
+  - YOLO11
+  - ONNX Runtime
+# After acceptance, add: preferred-citation (journal article) and the Zenodo DOI.

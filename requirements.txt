@@ -1,0 +1,13 @@
+# analysis (any machine); versions used to check that the committed tables reproduce byte for byte
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+scipy==1.18.1
+# benchmark (Raspberry Pi 5)
+onnxruntime==1.23.2
+ultralytics==8.4.148
+psutil
+opencv-python-headless
+# dataset rebuild / training (workstation)
+Pillow
+PyYAML
