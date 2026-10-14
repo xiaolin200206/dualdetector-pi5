@@ -1,0 +1,94 @@
+{
+  "environment": {
+    "python": "3.11.15",
+    "torch": "2.5.1",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "ultralytics": "8.4.102",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "dataset_audit_md5": "40d59308f350de8a992a63cdfe24709a",
+  "recipe": {
+    "epochs": 150,
+    "imgsz": 640,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.01,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3,
+    "close_mosaic": 10,
+    "patience": 0,
+    "deterministic": true,
+    "seed": 0,
+    "amp": true,
+    "plots": true,
+    "exist_ok": false,
+    "batch": 8,
+    "workers": 4
+  },
+  "leaf_s": {
+    "base_weights": "yolo11s.pt",
+    "dataset": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\built\\leaf\\data.yaml",
+    "run_dir": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\runs_train\\leaf_s",
+    "deployed_checkpoint": "last.pt (final epoch)",
+    "last_pt_md5": "85ea434e48cff7df35ff2f0ce2067a08",
+    "onnx_md5": "e14d0fb711f0aa0c22d2df1451c7c257",
+    "val_framework_validator": {
+      "map50": 0.4791279950355299,
+      "map50_95": 0.29924291582995155
+    },
+    "per_class_ap50": {
+      "Algal": 0.5289972206254278,
+      "Leaf_rot": 0.5834159842987426,
+      "Phomopsis": 0.8003437478500623,
+      "Pink_disease": 0.18020146528802378,
+      "Root_disease": 0.3026815571153927
+    },
+    "train_hours": 1.3
+  },
+  "pest_n": {
+    "base_weights": "yolo11n.pt",
+    "dataset": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\built\\pest\\data.yaml",
+    "run_dir": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\runs_train\\pest_n",
+    "deployed_checkpoint": "last.pt (final epoch)",
+    "last_pt_md5": "ccfa1f0e4e439801312a5aa509a4379c",
+    "onnx_md5": "3eb685593dd36a41ef952792eb7e73c7",
+    "val_framework_validator": {
+      "map50": 0.2736306787373036,
+      "map50_95": 0.11658279299518876
+    },
+    "per_class_ap50": {
+      "leafhopper_damage": 0.26260865627044705,
+      "Psyllid": 0.23198076612062513,
+      "Psyllid_damage": 0.12666287490949737,
+      "Scale_insect": 0.1728792149299073,
+      "Stem_borer": 0.027518334376804357,
+      "weevil": 0.39703773584905666,
+      "weevil_damage": 0.6967271687047876
+    },
+    "train_hours": 0.43
+  },
+  "pest_s": {
+    "base_weights": "yolo11s.pt",
+    "dataset": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\built\\pest\\data.yaml",
+    "run_dir": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\runs_train\\pest_s",
+    "deployed_checkpoint": "last.pt (final epoch)",
+    "last_pt_md5": "4982066d8938130e25fbde0336dff6c6",
+    "onnx_md5": "825e5ca2b999f146adfa75f6c66bb086",
+    "val_framework_validator": {
+      "map50": 0.27753061627149334,
+      "map50_95": 0.1291744951613028
+    },
+    "per_class_ap50": {
+      "leafhopper_damage": 0.2045957954047497,
+      "Psyllid": 0.23477699901818247,
+      "Psyllid_damage": 0.18751994833614857,
+      "Scale_insect": 0.17365522271479708,
+      "Stem_borer": 0.04130116649183773,
+      "weevil": 0.395,
+      "weevil_damage": 0.7058651819347379
+    },
+    "train_hours": 0.63
+  }
+}
