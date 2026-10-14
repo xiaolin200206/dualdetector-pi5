@@ -124,7 +124,7 @@ readings, not wall or battery power.
 
 ## Power supply and interruptions
 
-The board was powered through a battery pack with pass-through charging (the same arrangement as in Lin, 2026a)
+The board was powered through a battery pack with pass-through charging (the same arrangement as in Lin (2026), *Smart Agricultural Technology* 15, 102526, https://doi.org/10.1016/j.atech.2026.102526)
 for 69 of the 77 completed runs: charger connected for the first 51, battery alone for the 12 runs from 00:59
 to 08:04 on 13 October, and supply path not recorded for four serial-baseline runs (21:45 on 12 October to
 00:04 on 13 October) and the first two replay runs. Nine attempts ended abruptly, without the
