@@ -71,7 +71,7 @@ logs; Table 1 (detector size and validation accuracy) comes from `data_rebuild/`
 | `data/` | Raw logs, one zip per set (inference, 0.5 s system log, PMIC log, events, metadata, and `replay.csv` for the replay runs). Interrupted attempts are kept as `<label>__failed<n>` and ignored by the scripts. `sabah_labels/`: YOLO label files, class list and image list of the 281 replay images (the images are archived at https://doi.org/10.5281/zenodo.22030623 and are not redistributed here). |
 | `results/` | Tables (`tables/`) and figures (`figures/fig01`–`fig08`, PNG and PDF) generated from the raw logs. |
 | `data_rebuild/` | Leak-audited dataset rebuild, training and ONNX export (workstation with a CUDA GPU). |
-| `models/` | `table1.json`: size, compute and validation accuracy of the three ONNX models (Table 1). |
+| `models/` | The three ONNX models used on the Pi (`leaf_s.onnx`, `pest_n.onnx`, `pest_s.onnx`), the training `manifest.json`, and `table1.json` (size, compute, validation accuracy and MD5 of each model; Table 1). |
 
 ## Reproduce the tables and figures (no Pi needed)
 
@@ -160,12 +160,12 @@ outcomes at one dwell time (2.5 s) and one period (1.5 s) only.
 
 - Training images (leaf-disease and pest exports, 1372 unique images): https://doi.org/10.5281/zenodo.22646875 (CC BY 4.0).
 - Replay images (281 Sabah images, inside the farm- and tree-level dataset): https://doi.org/10.5281/zenodo.22030623 (CC BY-NC 4.0).
-- The three trained ONNX models are archived with the Zenodo record of this repository.
+- The three trained ONNX models (`leaf_s.onnx`, `pest_n.onnx`, `pest_s.onnx`) and the training `manifest.json` are in `models/`; their MD5 checksums are listed in `models/table1.json` and recorded in every run's `meta.json`.
 - `data_rebuild/` reproduces the split and the training from the training images.
 
 ## Licence
 
 Code: MIT (`LICENSE`). Ultralytics (AGPL-3.0) is used as a library and is not included.
-Raw logs (`data/*_raw.zip`), result tables (`results/`) and `models/`: CC BY 4.0.
+Raw logs (`data/*_raw.zip`), result tables (`results/`) and the models in `models/`: CC BY 4.0.
 `data/sabah_labels/`: CC BY-NC 4.0, the licence of the dataset the labels come from (zenodo.22030623).
 Images: see the dataset records above.
