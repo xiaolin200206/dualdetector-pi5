@@ -29,8 +29,8 @@
   },
   "leaf_s": {
     "base_weights": "yolo11s.pt",
-    "dataset": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\built\\leaf\\data.yaml",
-    "run_dir": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\runs_train\\leaf_s",
+    "dataset": "result/built/leaf/data.yaml",
+    "run_dir": "result/runs_train/leaf_s",
     "deployed_checkpoint": "last.pt (final epoch)",
     "last_pt_md5": "85ea434e48cff7df35ff2f0ce2067a08",
     "onnx_md5": "e14d0fb711f0aa0c22d2df1451c7c257",
@@ -49,8 +49,8 @@
   },
   "pest_n": {
     "base_weights": "yolo11n.pt",
-    "dataset": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\built\\pest\\data.yaml",
-    "run_dir": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\runs_train\\pest_n",
+    "dataset": "result/built/pest/data.yaml",
+    "run_dir": "result/runs_train/pest_n",
     "deployed_checkpoint": "last.pt (final epoch)",
     "last_pt_md5": "ccfa1f0e4e439801312a5aa509a4379c",
     "onnx_md5": "3eb685593dd36a41ef952792eb7e73c7",
@@ -71,8 +71,8 @@
   },
   "pest_s": {
     "base_weights": "yolo11s.pt",
-    "dataset": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\built\\pest\\data.yaml",
-    "run_dir": "C:\\Users\\Lim Ding Shan\\Desktop\\Durian project and paper\\paepr4 data\\result\\runs_train\\pest_s",
+    "dataset": "result/built/pest/data.yaml",
+    "run_dir": "result/runs_train/pest_s",
     "deployed_checkpoint": "last.pt (final epoch)",
     "last_pt_md5": "4982066d8938130e25fbde0336dff6c6",
     "onnx_md5": "825e5ca2b999f146adfa75f6c66bb086",

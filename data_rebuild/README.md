@@ -28,7 +28,7 @@ python 04_table1.py  --models result\onnx --runs result\runs_train
    the training and validation images: SHA-256 matches and the nearest perceptual hash under the eight
    rotations and flips.
 
-`common.py` holds shared helpers. `class_map.yaml` is a template; see the note inside it.
+`common.py` holds shared helpers. `class_map.yaml` is the class map used for the paper (defaults: no renames or drops).
 
 The leak checks (export stem, SHA-256, video, perceptual hash within the grouping threshold, camera
 burst) must all be zero for `03_train.py` to start.
