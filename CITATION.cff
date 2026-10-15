@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite the paper (citation added on acceptance) and this repository."
-title: "Code and data for: Release-timing rules for disease and pest detectors sharing one single-board computer on a crop-scouting unit"
+title: "Code, logs and models: release timing of two YOLO11 detectors sharing a Raspberry Pi 5 on a crop-scouting unit"
 authors:
   - family-names: "Lin"
     given-names: "Ding Shan"

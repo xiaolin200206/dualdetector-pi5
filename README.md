@@ -2,9 +2,8 @@
 
 Code, analysis scripts and raw logs for the paper
 
-> Lin, D. S. *Release-timing rules for disease and pest detectors sharing one single-board computer
-> on a crop-scouting unit.* Manuscript under review (2026).
-> The citation will be added on acceptance.
+> Lin, D. S. (2026). Release timing of two YOLO11 detectors sharing a Raspberry Pi 5 on a crop-scouting
+> unit. Manuscript under review; the full citation will be added on acceptance.
 
 A leaf-disease detector (YOLO11s) and a pest detector (YOLO11n or YOLO11s), trained on durian images,
 run in ONNX Runtime on the CPU of one Raspberry Pi 5 with the Active Cooler. Every inference is
@@ -16,7 +15,7 @@ six sets:
 | Main campaign (`campaign1`) | 8 policies × 3 = 24 | 60 min, min 20–60 | penalty of overlap at equal work; thermal effect |
 | Second round (`campaign2`) | 6 fixed-period policies × 1 | 60 min, min 20–60 | repeat in a separate session; power with randomised sampling |
 | First sweep (`sweep1`) | P = 1.0, 1.5, 2.0 s × offset 0, P/4, P/2 × 2 = 18 | 30 min, min 10–30 | non-overlap condition, Eq. (1) |
-| Serial baseline (`campaign3`) | fixed-period serial, 3 configurations × 3 = 9 | 30 min, min 10–30 | sequential baseline at the same work rate |
+| Fixed-period serial, `serialp` (`campaign3`) | leaf every 1.5 s, pest when leaf returns; 3 configurations × 3 = 9 | 30 min, min 10–30 | same work rate as sync/phase, pest chained after leaf |
 | Second sweep (`sweep2`) | P = 1.5 s, offset 0.39–0.60 s × 2 = 10 | 30 min, min 10–30 | where contact stops |
 | Replay (`replay1`) | 5 schedules × 2 = 10 | 20 min, min 2–20 | detection outcomes and time from image onset to answers, with 281 labelled images from two other orchards; Eq. (3) |
 
@@ -136,7 +135,7 @@ the minute before the cut; for the others the cause was not recorded:
 | Set | Interrupted attempts | Kept as |
 |---|---|---|
 | Main campaign | 1 (10 Oct, about 11:50) | `phase_t2_r3__failed1` |
-| Serial baseline | 5 (12 Oct 13:27, 20:54, 21:40; 13 Oct about 00:31 and before 00:59) | `serialp_r2__failed1–3`, `serialp_t2_r3__failed1–2` |
+| Fixed-period serial | 5 (12 Oct 13:27, 20:54, 21:40; 13 Oct about 00:31 and before 00:59) | `serialp_r2__failed1–3`, `serialp_t2_r3__failed1–2` |
 | Replay | 3 (13 Oct, about 15:54 and 16:08; one between 17:24 and 21:30 that wrote no files) | `rp_sync_r1__failed1–2` |
 
 After the losses of 12–13 October the charger was disconnected, and the 12 runs that followed (to 08:04
